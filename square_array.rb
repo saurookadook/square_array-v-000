@@ -4,6 +4,6 @@ def square_array(array)
   # your code here
   array.each do |num|
     # binding.pry
-    num**2
+    array[num**2]
   end
 end
